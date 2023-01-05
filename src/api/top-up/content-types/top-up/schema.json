@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_ups",
+  "info": {
+    "singularName": "top-up",
+    "pluralName": "top-ups",
+    "displayName": "Top Up",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bank": {
+      "displayName": "Top Up",
+      "type": "component",
+      "repeatable": true,
+      "component": "top-up.top-up"
+    },
+    "merchant": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-up.top-up"
+    },
+    "topup": {
+      "type": "customField",
+      "customField": "plugin::pagepreview.page-preview"
+    }
+  }
+}

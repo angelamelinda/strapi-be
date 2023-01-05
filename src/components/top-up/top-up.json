@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_top_up_top_ups",
+  "info": {
+    "displayName": "Top Up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
